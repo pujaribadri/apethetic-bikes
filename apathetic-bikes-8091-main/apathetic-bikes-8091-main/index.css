@@ -1,0 +1,268 @@
+#main{
+    display: grid;
+    grid-template-columns: 650px 350px;
+    grid-template-rows: auto;
+    justify-content: center;
+    column-gap: 20px;
+}
+/* #main>div{
+    border: 1px solid red; 
+
+} */
+#main>div img{
+width: 100%;
+margin-top: 30px;
+}
+#container div>h1,p{
+margin: 20px;
+}
+#container div>p{
+  font-size: large;
+}
+#container-left>div h3,p{
+    margin: 20px;
+}
+#main>div>h3{
+    margin: 20px;
+    margin-bottom: 5px;
+}
+#main h1:first-child{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: -15px;
+}
+#container-left>div{
+  border: 1px solid grey;
+  width: auto;
+  padding: 10px;
+}
+
+
+#footer>div:first-child{
+  display: flex;
+  width: 100%;
+  height: 30px;
+}
+#footer{
+  /* border: 1px solid red; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: auto;
+}
+#footer_one{
+  display: flex;
+  justify-content: space-around ;
+  height: 50px;
+}
+#footer_one a{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: center; 
+} 
+#footer_one>a{
+  width: 150px;
+  height: 80%;
+  margin: 5px;
+}
+
+#footer_one>div>a img{
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+#footer_one~div{
+  text-align: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+#footer_one~div>a{
+  margin: 10px;
+  color: black;
+  text-decoration: none;
+}
+#footer>hr:first-child{
+  height: 5px;
+  background-color: grey;
+}
+#footer-main{
+  display: flex;
+  justify-content: center;  
+  width: 60%;
+  margin: auto;
+}
+#footer-main>div{
+  text-align: left;
+  width: 18%;
+  margin-top: -10px;
+  margin-left: -60px;
+}
+#footer-main>hr{
+  margin-top: -20px;
+}
+#footer-main a{
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  color: #717171;
+  line-height: 2px;
+  text-decoration: none;
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  .text {
+    color: black;
+    font-size: 25px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 90%;
+    text-align: center;
+    background-color: #f2f2f2;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 7px;
+    width: 25px;
+    margin: 0 2px;
+    background-color: #bbb;
+    display: inline-block;
+    transition: background-color 0.20s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 3.5s;
+  }
+  
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: grey;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+  @keyframes fade {
+    from {opacity: .7} 
+    to {opacity: 1}
+  }
+
+
+  /* meidum screens */
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+    #main{
+      grid-template-columns: 350px 200px;
+      grid-template-rows: auto;
+      column-gap: 10px;
+  }
+  .text {
+    font-size: 15px;
+    padding: 4px 8px;
+    bottom: 4px;
+    width: 80%;
+    background-color: #f2f2f2;
+  }
+  .dot {
+    height: 5px;
+    width: 15px;
+  }
+  #container div>p,h1{
+    font-size:14px;
+  }
+  #container-left>div h3,p{
+    font-size:14px;
+}
+#footer-main>div{
+  width: 15%;
+  margin-top: -10px;
+  /* margin-left: -30px; */
+}
+#footer-main h4{
+  font-size: medium;
+  margin-left: 12px;
+}
+
+
+  }
+
+  /* small screens */
+  @media all and (min-width: 320px) and (max-width: 767px) {
+    #main{
+      grid-template-columns: 200px;
+      grid-template-rows: auto;
+      column-gap: 10px;
+  }
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  .text {
+    font-size: 10px;
+    padding: 4px 8px;
+    bottom: 4px;
+    width: 80%;
+    background-color: #f2f2f2;
+  }
+  .dot {
+    height: 3px;
+    width: 10px;
+  }
+  #container div>p,h1{
+    font-size:10px;
+  }
+  #container-left>div h3,p{
+    font-size:10px;
+}
+#footer_one{
+   display: block;
+  justify-content: center ;
+  height: 70px;
+}
+#footer-main a{
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1px;
+}
+#footer-main h4{
+  font-size: 10px;
+  margin-left: 15px;
+}
+
+  }

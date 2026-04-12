@@ -1,0 +1,328 @@
+#mainAuto,#mainCricket,#mainSports,#mainEntertainment,#mainIndia,#mainExplainer,#mainSports2{
+    display: grid;
+    grid-template-columns: 650px 350px;
+    grid-template-rows: auto;
+    justify-content: center;
+    column-gap: 20px;
+    /* margin: 20px; */
+}
+/* #mainAuto>div{
+    border: 1px solid red;  
+
+} */
+/* new */
+#main>div img{
+    width: 100%;
+    margin-top: 30px;
+}
+#mainAuto>div img{
+    width: 100%;
+    margin-top: 30px;
+}
+#mainCricket>div img{
+    width: 100%;
+    margin-top: 30px;
+}
+#mainSports>div img{
+    width: 100%;
+    margin-top: 30px;
+}
+#mainSports2>div img{
+    width: 100%;
+    margin-top: 30px;
+}
+#mainIndia>div img{
+    width: 100%;
+    margin-top: 30px;
+}
+#mainEntertainment>div img{
+    width: 100%;
+    margin-top: 30px;
+}
+#mainExplainer>div img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+#auto-left,#cricket-left,#sports-left,#sports2-left,#entertainment-left,#india-left,#explainer-left div>h1,p{
+margin: 20px;
+}
+#auto-left,#cricket-left,#sports-left,#sports2-left,#entertainment-left,#india-left,#explainer-left div>p{
+    font-family: serif;
+    color: #525252;
+    font-size: large;
+}
+/* #auto-left,#cricket-left,#sports-left,#entertainment-left,#india-left,#explainer-left div>h1{
+    color: black;
+} */
+
+
+#auto-right>div h3,p{
+    margin: 20px;
+}
+#cricket-right>div h3,p{
+    margin: 20px;
+}
+#sports-right>div h3,p{
+    margin: 20px;
+}
+#sports2-right>div h3,p{
+    margin: 20px;
+}
+#india-right>div h3,p{
+    margin: 20px;
+}
+#entertainment-right>div h3,p{
+    margin: 20px;
+}
+#explainer>div h3,p{
+    margin: 20px;
+}
+
+
+#mainAuto>div>h3{
+    margin: 20px;
+    margin-bottom: 5px;
+}
+#mainCricket>div>h3{
+    margin: 20px;
+    margin-bottom: 5px;
+}
+#mainSports>div>h3{
+    margin: 20px;
+    margin-bottom: 5px;
+}
+#mainSports2>div>h3{
+    margin: 20px;
+    margin-bottom: 5px;
+}
+#mainEntertainment>div>h3{
+    margin: 20px;
+    margin-bottom: 5px;
+}
+#mainExplainer>div>h3{
+    margin: 20px;
+    margin-bottom: 5px;
+}
+
+
+#cricket-right>div{
+  border: 1px solid grey;
+  width: auto;
+  padding: 10px;
+}
+#sports-right>div{
+    border: 1px solid grey;
+    width: auto;
+    padding: 10px;
+}
+#sports2-right>div{
+    border: 1px solid grey;
+    width: auto;
+    padding: 10px;
+}
+#auto-right>div{
+    border: 1px solid grey;
+    width: auto;
+    padding: 10px;
+}
+#india-right>div{
+    border: 1px solid grey;
+    width: auto;
+    padding: 10px;
+}
+#entertainment-right>div{
+    border: 1px solid grey;
+    width: auto;
+    padding: 10px;
+}
+#explainer-right>div{
+    border: 1px solid grey;
+    width: auto;
+    padding: 10px;
+}
+
+#footer>div:first-child{
+    display: flex;
+    width: 100%;
+    height: 30px;
+  }
+  #footer{
+    /* border: 1px solid red; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: auto;
+  }
+  #footer_one{
+    display: flex;
+    justify-content: space-around ;
+    height: 50px;
+  }
+  #footer_one a{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center; 
+  } 
+  #footer_one>a{
+    width: 150px;
+    height: 80%;
+    margin: 5px;
+  }
+  
+  #footer_one>div>a img{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+  }
+  #footer_one~div{
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  #footer_one~div>a{
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+  }
+  #footer>hr:first-child{
+    height: 5px;
+    background-color: grey;
+  }
+  #footer-main{
+    display: flex;
+    justify-content: center;  
+    
+    width: 60%;
+    margin: auto;
+  }
+  #footer-main>div{
+    text-align: left;
+    width: 18%;
+    margin-top: -10px;
+    margin-left: -60px;
+  }
+  #footer-main>hr{
+    margin-top: -20px;
+  }
+  #footer-main a{
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    color: #717171;
+    line-height: 2px;
+    text-decoration: none;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: grey;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  /* meidum screens */
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+    #mainAuto,#mainCricket,#mainSports,#mainEntertainment,#mainIndia,#mainExplainer,#mainSports2{
+      grid-template-columns: 350px 200px;
+      grid-template-rows: auto;
+      column-gap: 10px;
+  }
+  .text {
+    font-size: 15px;
+    padding: 4px 8px;
+    bottom: 4px;
+    width: 80%;
+    background-color: #f2f2f2;
+  }
+  .dot {
+    height: 5px;
+    width: 15px;
+  }
+#auto-left,#cricket-left,#sports-left,#sports2-left,#entertainment-left,#india-left,#explainer-left div>p,h1{
+    font-size:14px;
+}
+#auto-right,#cricket-right,#sports-right,#sports2-right,#india-right,#entertainment-right,#explainer>div h3,p{
+    font-size:14px;
+}
+#footer-main>div{
+  width: 15%;
+  margin-top: -10px;
+  /* margin-left: -30px; */
+}
+#footer-main h4{
+  font-size: medium;
+  margin-left: 12px;
+}
+
+
+  }
+  
+  /* small screens */
+  @media all and (min-width: 320px) and (max-width: 767px) {
+    #mainAuto,#mainCricket,#mainSports,#mainEntertainment,#mainIndia,#mainExplainer,#mainSports2{
+      grid-template-columns: 200px;
+      grid-template-rows: auto;
+      column-gap: 10px;
+  }
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  .text {
+    font-size: 10px;
+    padding: 4px 8px;
+    bottom: 4px;
+    width: 80%;
+    background-color: #f2f2f2;
+  }
+  .dot {
+    height: 3px;
+    width: 10px;
+  }
+  #auto-left,#cricket-left,#sports-left,#sports2-left,#entertainment-left,#india-left,#explainer-left div>p,h1{
+    font-size:10px;
+  }
+  #auto-right,#cricket-right,#sports-right,#sports2-right,#india-right,#entertainment-right,#explainer>div h3,p{
+    font-size:10px;
+}
+#footer_one{
+   display: block;
+  justify-content: center ;
+  height: 70px;
+}
+#footer-main a{
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1px;
+}
+#footer-main h4{
+  font-size: 10px;
+  margin-left: 15px;
+}
+
+  }
